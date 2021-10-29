@@ -46,22 +46,4 @@ while True:
      result =(num1 //num2)
      print(result)
 
-   elif user_input=='subtract':
-     num1 =float(input(""))
-     num2 =float(input(""))
-     result =(num1 - num2)
-     print(result)
-
-
-   elif user_input=='root':
-     num1 =float(input(""))
-     num2 =float(input(""))
-     result1 = (num1**1/2) 
-     result2=  (num2**1/2) 
-     print(result1)
-     print(result2 )
-     
-   elif user_input=='percentage':
-     num1 =float(input(""))
-     result1 = (num1/100) 
-     print(result1)
+  
