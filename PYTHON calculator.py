@@ -64,4 +64,8 @@ while True:
      num1 =float(input(""))
      result1 = (num1/100) 
      print(result1)
-  
+
+   elif user_input=='exponent':
+     base =float(input("base: "))
+     exponent =float(input("exponent: "))
+     print(base ** exponent )
